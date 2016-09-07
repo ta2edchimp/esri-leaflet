@@ -65,7 +65,7 @@ export var FeatureManager = VirtualGrid.extend({
 
   onAdd: function (map) {
     // include 'Powered by Esri' in map attribution
-    Util.setEsriAttribution(map);
+    setEsriAttribution(map);
 
     // check to see whether service is 10.4 or above (and can emit GeoJSON natively)
     this.service.metadata(function (error, metadata) {
