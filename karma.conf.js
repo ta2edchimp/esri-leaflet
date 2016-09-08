@@ -13,7 +13,7 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     // not sure why tests are failing when files are loaded in bulk
-    
+
     files: [
       'node_modules/leaflet/dist/leaflet.css',
       'node_modules/leaflet/dist/leaflet-src.js',
@@ -60,6 +60,7 @@ module.exports = function (config) {
       // 'ChromeCanary',
       // 'Firefox',
       // 'Safari',
+      // This one starts to make trouble ...
       'PhantomJS'
     ],
 
